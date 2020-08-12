@@ -139,8 +139,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1104515
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -185,8 +188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2723208
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -587,8 +593,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &31888472
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -633,8 +642,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &35267280
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -679,8 +691,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &35993574
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1081,8 +1096,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &100582233
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1216,8 +1234,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &113460001
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1262,8 +1283,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &131353729
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1397,8 +1421,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 443947951}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &137748992
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1532,8 +1559,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &167888081
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1578,8 +1608,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &168996127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1624,8 +1657,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &172595533
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1670,8 +1706,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &174754512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1805,8 +1844,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &213720283
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1940,8 +1982,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &232633245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2164,8 +2209,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &256774077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2477,8 +2525,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &332153843
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2530,13 +2581,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353836098}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b5c851ad8deb08409e9496f5bb0a501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 0}
-  inst_obj: {fileID: 0}
+  currentMove: 0
 --- !u!212 &353836100
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3331,8 +3381,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &396282672
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3377,8 +3430,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &414123223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3423,8 +3479,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &416129725
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4342,8 +4401,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &458661708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4477,8 +4539,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &475113173
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4523,8 +4588,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &479256793
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4569,8 +4637,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &486072052
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4704,8 +4775,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &504706914
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4750,8 +4824,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &505441546
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4885,8 +4962,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &514912273
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5120,8 +5200,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &539539439
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5255,8 +5338,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &554215620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5568,8 +5654,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &624971187
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5614,8 +5703,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &634995918
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5749,8 +5841,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &642311164
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5795,8 +5890,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &645032268
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5841,8 +5939,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &659351321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6065,8 +6166,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &696970970
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6111,8 +6215,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &708120253
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6424,8 +6531,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &716157007
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6559,8 +6669,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &746856717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6605,8 +6718,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &755251542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6651,8 +6767,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &766853139
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6697,8 +6816,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &775576930
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7010,8 +7132,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &825071645
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7056,8 +7181,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &827351742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7191,8 +7319,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &839270694
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7237,8 +7368,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &845286608
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7372,8 +7506,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &871587946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7418,8 +7555,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &875627578
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7464,8 +7604,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &878772790
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7599,8 +7742,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &906413484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7645,8 +7791,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &919183910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7869,8 +8018,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &943266386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7915,8 +8067,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &944552895
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8076,8 +8231,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 443947951}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!1001 &964284815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8185,8 +8343,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &970645069
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8587,8 +8748,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1027975058
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8633,8 +8797,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1033586149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8679,8 +8846,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1038841837
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8814,8 +8984,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1062836798
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8949,8 +9122,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1095967022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8995,8 +9171,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1099512917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9041,8 +9220,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1105929272
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9176,8 +9358,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1117106146
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9311,8 +9496,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1144192491
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9446,8 +9634,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1169707812
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9492,8 +9683,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1170471967
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9538,8 +9732,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1184572158
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9851,8 +10048,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1236623379
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10075,8 +10275,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1287943374
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10210,8 +10413,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1312105585
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10282,8 +10488,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!1001 &1331885916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10569,8 +10778,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1358993184
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10977,8 +11189,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1419120442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11023,8 +11238,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1426018132
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11158,8 +11376,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1436546883
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11738,8 +11959,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1490556908
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11784,8 +12008,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1503065831
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11830,8 +12057,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1516187169
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11876,8 +12106,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1529485961
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12189,8 +12422,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1560795191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12235,8 +12471,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1564926294
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12281,8 +12520,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1569268194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12327,8 +12569,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1571264830
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12373,8 +12618,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1575363135
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12419,8 +12667,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1575794591
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12465,8 +12716,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1579557495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12511,8 +12765,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1583491381
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12646,8 +12903,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1591629614
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12692,8 +12952,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1595843783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12827,8 +13090,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1601420059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12873,8 +13139,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1603092138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12919,8 +13188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1613972051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13143,8 +13415,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1627292323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13189,8 +13464,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1628550356
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13413,8 +13691,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1648213362
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13548,8 +13829,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1661018243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13594,8 +13878,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1662501926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13640,8 +13927,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1677394024
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14042,8 +14332,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1724756277
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14355,8 +14648,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1761089226
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14401,8 +14697,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1777008132
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14447,8 +14746,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1778759979
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14760,8 +15062,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1829104501
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14806,8 +15111,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1829838789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14941,8 +15249,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1841186192
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15165,8 +15476,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1859377976
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15211,8 +15525,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1878730767
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15346,8 +15663,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1910010226
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15392,8 +15712,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1912648191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15438,8 +15761,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1919710020
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15751,8 +16077,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &1985863729
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15797,8 +16126,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2018537348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15843,8 +16175,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2024507202
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15978,8 +16313,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2039111464
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16113,8 +16451,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2054908028
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16159,8 +16500,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2055253364
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16205,8 +16549,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2063929525
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16251,8 +16598,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2070475015
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16297,8 +16647,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2080229256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16343,8 +16696,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2090829092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16389,8 +16745,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2102641822
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16791,8 +17150,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15eba3139ef0c7440ae6a8e9b0555dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldcolor: {fileID: 1412662702}
+  fieldcolorred: {fileID: 443947951}
+  fieldcolorblue: {fileID: 1412662702}
+  fieldcolornext: {fileID: 0}
   inst_obj: {fileID: 0}
+  field1h: {fileID: 353836098}
 --- !u!61 &2141090924
 BoxCollider2D:
   m_ObjectHideFlags: 0

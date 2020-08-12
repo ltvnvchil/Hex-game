@@ -8,13 +8,20 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
 {
 
     //public GameObject particle;
-    public GameObject fieldcolor;
+    public GameObject fieldcolorred;
+    public GameObject fieldcolorblue;
+    public GameObject fieldcolornext;
     public GameObject inst_obj;
+    private nextMove move;
+    public GameObject field1h;
+    private bool isClicked = false;
 
     // Start is called before the first frame update
     void Start()
     {
         Debug.Log("I am alive!");
+        //move = GetComponent<nextMove>();
+        move = field1h.GetComponent<nextMove>();
         //Instantiate(fieldcolor);
 
     }
@@ -22,7 +29,21 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
     {
         Debug.Log("I am working onPoinerDown!");
         //GameObject inst_obj = (GameObject)Instantiate(fieldcolor, new Vector3(transform.position.x - 5f, fieldcolor.transform.position.y, fieldcolor.transform.position.z), Quaternion.identity);
-        inst_obj = Instantiate(fieldcolor, new Vector3(transform.position.x, transform.position.y, transform.position.z-0.1f), Quaternion.identity) as GameObject;
+        if (!isClicked)
+        {
+            if (move.currentMove == 0)
+            {
+                inst_obj = Instantiate(fieldcolorred, new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.1f), Quaternion.identity) as GameObject;
+                move.currentMove = 1;
+                isClicked = true;
+            }
+            else if (move.currentMove == 1)
+            {
+                inst_obj = Instantiate(fieldcolorblue, new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.1f), Quaternion.identity) as GameObject;
+                move.currentMove = 0;
+                isClicked = true;
+            }
+        }
     }
 
     // Update is called once per frame
