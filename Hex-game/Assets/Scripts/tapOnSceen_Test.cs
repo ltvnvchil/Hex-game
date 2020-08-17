@@ -27,9 +27,7 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
         //move = GetComponent<nextMove>();
         move = field1h.GetComponent<nextMove>();
         endgame = field1h.GetComponent<endGame>();
-        
-       
-
+             
     }
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -58,6 +56,7 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
 
     public void checkGame(int id, int idx, int idy, int color)
     {
+        Debug.Log("Clicked cell "+ id+ " " + idx+ " " + idy+ " " + color);
         endgame.newCell(id, idx, idy, color);
     }
 
