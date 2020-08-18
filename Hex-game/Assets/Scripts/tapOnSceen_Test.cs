@@ -24,7 +24,7 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("I am alive!");
+        //Debug.Log("I am alive!");
         //move = GetComponent<nextMove>();
         move = field1h.GetComponent<nextMove>();
         endgame = field1h.GetComponent<endGame>();
@@ -39,7 +39,7 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
             if (move.currentMove == 0)
             {
                 inst_obj = Instantiate(fieldcolorred, new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.1f), Quaternion.identity) as GameObject;
-                checkGame( id,  idx,  idy,  1);
+                checkGame( id,  idx,  idy,  1, whichWall);
                 move.currentMove = 1;
                 isClicked = true;
 
@@ -47,7 +47,7 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
             else if (move.currentMove == 1)
             {
                 inst_obj = Instantiate(fieldcolorblue, new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.1f), Quaternion.identity) as GameObject;
-                checkGame( id,  idx,  idy,  2);
+                checkGame( id,  idx,  idy,  2, whichWall);
                 move.currentMove = 0;
                 isClicked = true;
 
@@ -55,10 +55,10 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
         }
     }
 
-    public void checkGame(int id, int idx, int idy, int color)
+    public void checkGame(int id, int idx, int idy, int color, int whichWall)
     {
-        Debug.Log("Clicked cell "+ id+ " " + idx+ " " + idy+ " " + color);
-        endgame.newCell(id, idx, idy, color);
+        Debug.Log("Clicked cell "+ id+ " " + idx+ " " + idy+ " " + color + " " + whichWall);
+        endgame.newCell(id, idx, idy, color, whichWall);
     }
 
     // Update is called once per frame

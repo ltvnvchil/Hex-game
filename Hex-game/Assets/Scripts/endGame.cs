@@ -8,18 +8,24 @@ public class cell
     public int id;
     public int idx;
     public int idy;
-    public int color;
+    public int color = 0;
     public bool isFull = false;
-    public bool isBoard;
-    public int graphnumber;
+    public int whichWall;
+    public int graphnumber = -1;
 
-    public cell(int id, int idx, int idy, int color)
+    public cell()
+    {
+        this.color = 0;
+    }
+
+    public cell(int id, int idx, int idy, int color, int whichWall)
     {
         this.id = id;
         this.idx = idx;
         this.idy = idy;
         this.color = color;
         this.isFull = true;
+        this.whichWall = whichWall;
         //isBoard = isBoard;          
     }
 }
@@ -43,12 +49,12 @@ public class graph
 public class endGame : MonoBehaviour
 {
     public List<graph> graphList;
-    public cell[,] masCell = new cell[22, 12];
+    public cell[,] masCell;// = new cell[23, 13];
     // Start is called before the first frame update
     void Start()
     {
         graphList = new List<graph>();
-        //masCells = 
+        masCell = new cell[23, 13];
     }
 
     // Update is called once per frame
@@ -57,9 +63,9 @@ public class endGame : MonoBehaviour
         
     }
 
-    public void newCell(int id, int idx, int idy, int color)
+    public void newCell(int id, int idx, int idy, int color, int whichWall)
     {
-        cell newcell = new cell(id, idx, idy, color);
+        cell newcell = new cell(id, idx, idy, color, whichWall);
         masCell[idx, idy] = newcell;
 
         checkCellinGraph(newcell);
@@ -70,6 +76,7 @@ public class endGame : MonoBehaviour
         int curx = curcell.idx;
         int cury = curcell.idy;
         int curcolor = curcell.color;
+       
 
         graph newgraph = new graph(curcolor);//сделать добавление в новый граф текущей ячейки, потом проверка и добавление ячеек в граф
         graphList.Add(newgraph);
@@ -78,13 +85,24 @@ public class endGame : MonoBehaviour
         masCell[curx, cury].graphnumber = idgraph;
 
         //проверка соседей и обновление графов
+
+        //int graphnum1 = masCell[curx - 1, cury].graphnumber;
+        Debug.Log("debug " + masCell[curx - 1, cury].color + " " + curcolor+" ");
+
         if (masCell[curx - 1, cury].color == curcolor)//сверху слева
         {
             int graphnum = masCell[curx - 1, cury].graphnumber;
+            Debug.Log(graphnum);
             for (int i = 0; i < graphList[graphnum].idx.Length; i++)//проходим по всем ячейкам находящимся в том же графе, что и сосед только что поставленной ячейки
             {
+                Debug.Log("зашли в цикл "+i+" "+ graphList[graphnum].idx.Length);
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
+                int prevGraphNumber = masCell[curXid, curYid].graphnumber;//номер предыдущего графа ячейки, которая присоединяется к новому графу от только созданной ячейки
+                if (graphList[prevGraphNumber].leftWall)
+                    graphList[graphList.Count - 1].leftWall = graphList[prevGraphNumber].leftWall;
+                if (graphList[prevGraphNumber].rightWall)
+                    graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
             }
         }
@@ -95,6 +113,11 @@ public class endGame : MonoBehaviour
             {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
+                int prevGraphNumber = masCell[curXid, curYid].graphnumber;//номер предыдущего графа ячейки, которая присоединяется к новому графу от только созданной ячейки
+                if (graphList[prevGraphNumber].leftWall)
+                    graphList[graphList.Count - 1].leftWall = graphList[prevGraphNumber].leftWall;
+                if (graphList[prevGraphNumber].rightWall)
+                    graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
             }
         }
@@ -105,6 +128,11 @@ public class endGame : MonoBehaviour
             {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
+                int prevGraphNumber = masCell[curXid, curYid].graphnumber;//номер предыдущего графа ячейки, которая присоединяется к новому графу от только созданной ячейки
+                if (graphList[prevGraphNumber].leftWall)
+                    graphList[graphList.Count - 1].leftWall = graphList[prevGraphNumber].leftWall;
+                if (graphList[prevGraphNumber].rightWall)
+                    graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
             }
         }
@@ -115,6 +143,11 @@ public class endGame : MonoBehaviour
             {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
+                int prevGraphNumber = masCell[curXid, curYid].graphnumber;//номер предыдущего графа ячейки, которая присоединяется к новому графу от только созданной ячейки
+                if (graphList[prevGraphNumber].leftWall)
+                    graphList[graphList.Count - 1].leftWall = graphList[prevGraphNumber].leftWall;
+                if (graphList[prevGraphNumber].rightWall)
+                    graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
             }
         }
@@ -125,6 +158,11 @@ public class endGame : MonoBehaviour
             {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
+                int prevGraphNumber = masCell[curXid, curYid].graphnumber;//номер предыдущего графа ячейки, которая присоединяется к новому графу от только созданной ячейки
+                if (graphList[prevGraphNumber].leftWall)
+                    graphList[graphList.Count - 1].leftWall = graphList[prevGraphNumber].leftWall;
+                if (graphList[prevGraphNumber].rightWall)
+                    graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
             }
         }
@@ -132,14 +170,51 @@ public class endGame : MonoBehaviour
         {
             int graphnum = masCell[curx + 1, cury + 1].graphnumber;
             for (int i = 0; i < graphList[graphnum].idx.Length; i++)
-            { 
+            {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
+                int prevGraphNumber = masCell[curXid, curYid].graphnumber;//номер предыдущего графа ячейки, которая присоединяется к новому графу от только созданной ячейки
+                if (graphList[prevGraphNumber].leftWall)
+                    graphList[graphList.Count - 1].leftWall = graphList[prevGraphNumber].leftWall;
+                if (graphList[prevGraphNumber].rightWall)
+                    graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
             }
         }
         //проверка соседей и обновление графов
 
+        //проверка ячейки у стены ли она и указние в граф этого
+        if (masCell[curx, cury].color == 1)//если красная ячейка
+        {
+            if (masCell[curx, cury].whichWall == 1 || masCell[curx, cury].whichWall == 5 ||
+                masCell[curx, cury].whichWall == 6)//если у левой красной(первой) границы
+            {
+                graphList[graphList.Count - 1].leftWall = true;
+            }
+            if (masCell[curx, cury].whichWall == 4 ||
+                masCell[curx, cury].whichWall == 7 || masCell[curx, cury].whichWall == 8)//если у правой красной(первой) границы
+            {
+                graphList[graphList.Count - 1].rightWall = true;
+            }
+        }
+        else if (masCell[curx, cury].color == 2)//если синяя ячейка
+        {
+            if (masCell[curx, cury].whichWall == 2 || masCell[curx, cury].whichWall == 5 ||
+                masCell[curx, cury].whichWall == 7)//если у правой синей(первой) границы
+            {
+                graphList[graphList.Count - 1].rightWall = true;
+            }
+            if (masCell[curx, cury].whichWall == 6 ||
+                masCell[curx, cury].whichWall == 3 || masCell[curx, cury].whichWall == 8)//если у левой синей(первой) границы
+            {
+                graphList[graphList.Count - 1].leftWall = true;
+            }
+        }
+        //проверка  ячейки у стены ли она
 
+        if (graphList[graphList.Count - 1].leftWall == true && graphList[graphList.Count - 1].rightWall == true)
+        {
+            Debug.Log(" Winning cell! ");
+        }
     }
 }
