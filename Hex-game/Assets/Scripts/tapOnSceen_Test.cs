@@ -32,10 +32,11 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
     }
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("I am working onPointerDown!");
+        
         //GameObject inst_obj = (GameObject)Instantiate(fieldcolor, new Vector3(transform.position.x - 5f, fieldcolor.transform.position.y, fieldcolor.transform.position.z), Quaternion.identity);
         if (!isClicked)
         {
+            Debug.Log("I am working onPointerDown!");
             if (move.currentMove == 0)
             {
                 inst_obj = Instantiate(fieldcolorred, new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.1f), Quaternion.identity) as GameObject;

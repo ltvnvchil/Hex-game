@@ -10,12 +10,18 @@ public class cell
     public int idy;
     public int color = 0;
     public bool isFull = false;
-    public int whichWall;
+    public int whichWall = 0;
     public int graphnumber = -1;
 
     public cell()
     {
         this.color = 0;
+    }
+
+    public cell(int idx, int idy)
+    {
+        this.idx = idx;
+        this.idy = idy;
     }
 
     public cell(int id, int idx, int idy, int color, int whichWall)
@@ -34,8 +40,8 @@ public class graph
 {
     public int color;
     public int id;
-    public int[] idx;
-    public int[] idy;
+    public List<int> idx = new List<int>();
+    public List<int> idy = new List<int>();
     public bool leftWall = false;//связан ли граф с левой\правой стеной
     public bool rightWall = false;
 
@@ -55,6 +61,14 @@ public class endGame : MonoBehaviour
     {
         graphList = new List<graph>();
         masCell = new cell[23, 13];
+        for (int i = 0; i < 23; i++)
+        {
+            for (int j = 0; j < 13; j++)
+            {
+                cell newcell = new cell(i, j);
+                masCell[i,j] = newcell;
+            }
+        }
     }
 
     // Update is called once per frame
@@ -82,20 +96,22 @@ public class endGame : MonoBehaviour
         graphList.Add(newgraph);
         int idgraph = graphList.Count - 1;
         graphList[graphList.Count - 1].id = idgraph;//задаём id созданному графу
-        masCell[curx, cury].graphnumber = idgraph;
+        graphList[graphList.Count - 1].idx.Add(curx);//задаём в созданный граф 
+        graphList[graphList.Count - 1].idy.Add(cury);//координаты x и y только что созданной ячейки
+        masCell[curx, cury].graphnumber = idgraph;//задаём id графа для ячейки в массиве
 
         //проверка соседей и обновление графов
 
         //int graphnum1 = masCell[curx - 1, cury].graphnumber;
-        Debug.Log("debug " + masCell[curx - 1, cury].color + " " + curcolor+" ");
+        //Debug.Log("debug " + masCell[curx - 1, cury].color + " " + curcolor+" ");
 
         if (masCell[curx - 1, cury].color == curcolor)//сверху слева
         {
             int graphnum = masCell[curx - 1, cury].graphnumber;
             Debug.Log(graphnum);
-            for (int i = 0; i < graphList[graphnum].idx.Length; i++)//проходим по всем ячейкам находящимся в том же графе, что и сосед только что поставленной ячейки
+            for (int i = 0; i < graphList[graphnum].idx.Count; i++)//проходим по всем ячейкам находящимся в том же графе, что и сосед только что поставленной ячейки
             {
-                Debug.Log("зашли в цикл "+i+" "+ graphList[graphnum].idx.Length);
+                Debug.Log("зашли в цикл "+i+" "+ graphList[graphnum].idx.Count);
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
                 int prevGraphNumber = masCell[curXid, curYid].graphnumber;//номер предыдущего графа ячейки, которая присоединяется к новому графу от только созданной ячейки
@@ -109,7 +125,7 @@ public class endGame : MonoBehaviour
         if (masCell[curx + 1, cury].color == curcolor)//справа снизу
         {
             int graphnum = masCell[curx + 1, cury].graphnumber;
-            for (int i = 0; i < graphList[graphnum].idx.Length; i++)
+            for (int i = 0; i < graphList[graphnum].idx.Count; i++)
             {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
@@ -124,7 +140,7 @@ public class endGame : MonoBehaviour
         if (masCell[curx, cury - 1].color == curcolor)//справа
         {
             int graphnum = masCell[curx, cury - 1].graphnumber;
-            for (int i = 0; i < graphList[graphnum].idx.Length; i++)
+            for (int i = 0; i < graphList[graphnum].idx.Count; i++)
             {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
@@ -139,7 +155,7 @@ public class endGame : MonoBehaviour
         if (masCell[curx, cury + 1].color == curcolor)//слева
         {
             int graphnum = masCell[curx, cury + 1].graphnumber;
-            for (int i = 0; i < graphList[graphnum].idx.Length; i++)
+            for (int i = 0; i < graphList[graphnum].idx.Count; i++)
             {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
@@ -154,7 +170,7 @@ public class endGame : MonoBehaviour
         if (masCell[curx - 1, cury - 1].color == curcolor)//справа сверху
         {
             int graphnum = masCell[curx - 1, cury - 1].graphnumber;
-            for (int i = 0; i < graphList[graphnum].idx.Length; i++)
+            for (int i = 0; i < graphList[graphnum].idx.Count; i++)
             {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
@@ -169,7 +185,7 @@ public class endGame : MonoBehaviour
         if (masCell[curx + 1, cury + 1].color == curcolor)//слева снизу
         {
             int graphnum = masCell[curx + 1, cury + 1].graphnumber;
-            for (int i = 0; i < graphList[graphnum].idx.Length; i++)
+            for (int i = 0; i < graphList[graphnum].idx.Count; i++)
             {
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
