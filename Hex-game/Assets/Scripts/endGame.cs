@@ -111,7 +111,7 @@ public class endGame : MonoBehaviour
             Debug.Log(graphnum);
             for (int i = 0; i < graphList[graphnum].idx.Count; i++)//проходим по всем ячейкам находящимся в том же графе, что и сосед только что поставленной ячейки
             {
-                Debug.Log("зашли в цикл "+i+" "+ graphList[graphnum].idx.Count);
+                //Debug.Log("зашли в цикл "+i+" "+ graphList[graphnum].idx.Count);
                 int curXid = graphList[graphnum].idx[i];
                 int curYid = graphList[graphnum].idy[i];
                 int prevGraphNumber = masCell[curXid, curYid].graphnumber;//номер предыдущего графа ячейки, которая присоединяется к новому графу от только созданной ячейки
@@ -197,7 +197,6 @@ public class endGame : MonoBehaviour
                 masCell[curXid, curYid].graphnumber = idgraph;
             }
         }
-        //проверка соседей и обновление графов
 
         //проверка ячейки у стены ли она и указние в граф этого
         if (masCell[curx, cury].color == 1)//если красная ячейка
