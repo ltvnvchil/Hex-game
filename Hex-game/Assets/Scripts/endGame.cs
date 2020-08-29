@@ -55,18 +55,23 @@ public class endGame : MonoBehaviour
 {
     public List<graph> graphList;
     public cell[,] masCell;// = new cell[23, 13];
+    private bool isStart = false;
     // Start is called before the first frame update
     void Start()
     {
-        graphList = new List<graph>();
-        masCell = new cell[23, 13];
-        for (int i = 0; i < 23; i++)
+        if (!isStart)
         {
-            for (int j = 0; j < 13; j++)
+            graphList = new List<graph>();
+            masCell = new cell[23, 13];
+            for (int i = 0; i < 23; i++)
             {
-                cell newcell = new cell(i, j);
-                masCell[i,j] = newcell;
+                for (int j = 0; j < 13; j++)
+                {
+                    cell newcell = new cell(i, j);
+                    masCell[i, j] = newcell;
+                }
             }
+            isStart = true;
         }
     }
 

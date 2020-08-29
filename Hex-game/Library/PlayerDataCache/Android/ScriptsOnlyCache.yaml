@@ -190,6 +190,55 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/rules.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11164}
+    - Class: 114
+      Script: {instanceID: 11454}
+    - Class: 114
+      Script: {instanceID: 11508}
+    - Class: 114
+      Script: {instanceID: 12172}
+    - Class: 114
+      Script: {instanceID: 12682}
+    - Class: 114
+      Script: {instanceID: 12872}
+    - Class: 114
+      Script: {instanceID: 13634}
+    - Class: 114
+      Script: {instanceID: 14244}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -706,4 +755,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/mainmenu.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/pause.unity
-  playerPath: D:/Unity/Projects/Hex-game/Hex-game/test.apk
+  - Assets/Scenes/rules.unity
+  playerPath: D:/Unity/Projects/Hex-game/Hex-game/test1.apk

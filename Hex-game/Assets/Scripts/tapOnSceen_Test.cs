@@ -20,13 +20,17 @@ public class tapOnSceen_Test : MonoBehaviour, IPointerDownHandler
     public int idx;
     public int idy;
     public int whichWall = 0;//1-левый верх, 2 правый верх, 3 - левый низ, 4- правый низ, 5 - верхний угол, 6 -левый угол, 7 - правый угол, 8 - нижний угол
+    private bool isStart = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        move = field1h.GetComponent<nextMove>();
-        endgame = field1h.GetComponent<endGame>();
-             
+        if (!isStart)
+        {
+            move = field1h.GetComponent<nextMove>();
+            endgame = field1h.GetComponent<endGame>();
+            isStart = true;
+        }
     }
     public void OnPointerDown(PointerEventData eventData)
     {
