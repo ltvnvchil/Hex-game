@@ -31,8 +31,7 @@ public class cell
         this.idy = idy;
         this.color = color;
         this.isFull = true;
-        this.whichWall = whichWall;
-        //isBoard = isBoard;          
+        this.whichWall = whichWall;      
     }
 }
 
@@ -225,8 +224,8 @@ public class endGame : MonoBehaviour
                 graphList[graphList.Count - 1].leftWall = true;
             }
         }
-        //проверка  ячейки у стены ли она
 
+        //проверка выиграла ли эта ячейка
         if (graphList[graphList.Count - 1].leftWall == true && graphList[graphList.Count - 1].rightWall == true)
         {
             Debug.Log(" Winning cell! ");
