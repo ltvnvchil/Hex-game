@@ -64,6 +64,7 @@ public class endGame : MonoBehaviour
     {
         if (!isStart)
         {
+            string str = "";
             graphList = new List<graph>();
             masCell = new cell[23, 13];
             for (int i = 0; i < 23; i++)
@@ -72,8 +73,12 @@ public class endGame : MonoBehaviour
                 {
                     cell newcell = new cell(i, j);
                     masCell[i, j] = newcell;
+                    str += masCell[i, j].idx;
+                    str += masCell[i, j].idy;
                 }
+                str += "\n";
             }
+            //Debug.Log(str);
             isStart = true;
         }
     }
@@ -112,10 +117,11 @@ public class endGame : MonoBehaviour
         //int graphnum1 = masCell[curx - 1, cury].graphnumber;
         //Debug.Log("debug " + masCell[curx - 1, cury].color + " " + curcolor+" ");
 
-        if (masCell[curx - 1, cury].color == curcolor)//сверху слева
+        if (masCell[curx - 1, cury].color == curcolor && masCell[curx - 1, cury].graphnumber != idgraph)//сверху слева
         {
-            int graphnum = masCell[curx - 1, cury].graphnumber;
-            Debug.Log(graphnum);
+            int graphnum = masCell[curx - 1, cury].graphnumber;//номер графа у ячейки соседа
+            //Debug.Log(graphnum);
+            //Debug.Log(graphList[graphnum].idx.Count);
             for (int i = 0; i < graphList[graphnum].idx.Count; i++)//проходим по всем ячейкам находящимся в том же графе, что и сосед только что поставленной ячейки
             {
                 //Debug.Log("зашли в цикл "+i+" "+ graphList[graphnum].idx.Count);
@@ -127,9 +133,11 @@ public class endGame : MonoBehaviour
                 if (graphList[prevGraphNumber].rightWall)
                     graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
+                graphList[graphList.Count - 1].idx.Add(curXid);
+                graphList[graphList.Count - 1].idy.Add(curYid);
             }
         }
-        if (masCell[curx + 1, cury].color == curcolor)//справа снизу
+        if (masCell[curx + 1, cury].color == curcolor && masCell[curx + 1, cury].graphnumber != idgraph)//справа снизу
         {
             int graphnum = masCell[curx + 1, cury].graphnumber;
             for (int i = 0; i < graphList[graphnum].idx.Count; i++)
@@ -142,9 +150,11 @@ public class endGame : MonoBehaviour
                 if (graphList[prevGraphNumber].rightWall)
                     graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
+                graphList[graphList.Count - 1].idx.Add(curXid);
+                graphList[graphList.Count - 1].idy.Add(curYid);
             }
         }
-        if (masCell[curx, cury - 1].color == curcolor)//справа
+        if (masCell[curx, cury - 1].color == curcolor && masCell[curx, cury - 1].graphnumber != idgraph)//справа
         {
             int graphnum = masCell[curx, cury - 1].graphnumber;
             for (int i = 0; i < graphList[graphnum].idx.Count; i++)
@@ -157,9 +167,11 @@ public class endGame : MonoBehaviour
                 if (graphList[prevGraphNumber].rightWall)
                     graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
+                graphList[graphList.Count - 1].idx.Add(curXid);
+                graphList[graphList.Count - 1].idy.Add(curYid);
             }
         }
-        if (masCell[curx, cury + 1].color == curcolor)//слева
+        if (masCell[curx, cury + 1].color == curcolor && masCell[curx, cury + 1].graphnumber != idgraph)//слева
         {
             int graphnum = masCell[curx, cury + 1].graphnumber;
             for (int i = 0; i < graphList[graphnum].idx.Count; i++)
@@ -172,9 +184,11 @@ public class endGame : MonoBehaviour
                 if (graphList[prevGraphNumber].rightWall)
                     graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
+                graphList[graphList.Count - 1].idx.Add(curXid);
+                graphList[graphList.Count - 1].idy.Add(curYid);
             }
         }
-        if (masCell[curx - 1, cury - 1].color == curcolor)//справа сверху
+        if (masCell[curx - 1, cury - 1].color == curcolor && masCell[curx - 1, cury - 1].graphnumber != idgraph)//справа сверху
         {
             int graphnum = masCell[curx - 1, cury - 1].graphnumber;
             for (int i = 0; i < graphList[graphnum].idx.Count; i++)
@@ -187,9 +201,11 @@ public class endGame : MonoBehaviour
                 if (graphList[prevGraphNumber].rightWall)
                     graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
+                graphList[graphList.Count - 1].idx.Add(curXid);
+                graphList[graphList.Count - 1].idy.Add(curYid);
             }
         }
-        if (masCell[curx + 1, cury + 1].color == curcolor)//слева снизу
+        if (masCell[curx + 1, cury + 1].color == curcolor && masCell[curx + 1, cury + 1].graphnumber != idgraph)//слева снизу
         {
             int graphnum = masCell[curx + 1, cury + 1].graphnumber;
             for (int i = 0; i < graphList[graphnum].idx.Count; i++)
@@ -202,6 +218,8 @@ public class endGame : MonoBehaviour
                 if (graphList[prevGraphNumber].rightWall)
                     graphList[graphList.Count - 1].rightWall = graphList[prevGraphNumber].rightWall;
                 masCell[curXid, curYid].graphnumber = idgraph;
+                graphList[graphList.Count - 1].idx.Add(curXid);
+                graphList[graphList.Count - 1].idy.Add(curYid);
             }
         }
 
@@ -232,7 +250,19 @@ public class endGame : MonoBehaviour
                 graphList[graphList.Count - 1].leftWall = true;
             }
         }
+        string i1="";
+        //Debug.Log(masCell);
+        /*for (int i = 0; i < 23; i++)
+        {
+            for (int j = 0; j < 13; j++)
+            {
+                i1 += masCell[i, j].graphnumber.ToString();
+                //Debug.Log(masCell[i,j].color);
 
+            }
+            i1 += "\n";
+        }*/
+        Debug.Log(i1);
         //проверка выиграла ли эта ячейка
         if (graphList[graphList.Count - 1].leftWall == true && graphList[graphList.Count - 1].rightWall == true)
         {
