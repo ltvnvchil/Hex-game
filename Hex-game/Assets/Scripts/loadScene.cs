@@ -8,6 +8,7 @@ public class loadScene : MonoBehaviour
     // Start is called before the first frame update
     public void LoadScene(int level)
     {
+        Debug.Log("loadScene "+level);
         if (level == 2)
         {
             SceneManager.LoadScene(level, LoadSceneMode.Additive);
@@ -16,11 +17,16 @@ public class loadScene : MonoBehaviour
     }
     public void LoadSceneAfterPause( int level)
     {
-        if (level == 1 )
+        Debug.Log("loadScene " + level);
+        if (level == 1)
         {
             SceneManager.UnloadSceneAsync(2);
         }
-        
+        else
+        {
+            SceneManager.UnloadSceneAsync(2);
+            SceneManager.LoadScene(level);
+        }
     }
 
     // Update is called once per frame
