@@ -53,6 +53,9 @@ public class graph
 
 public class endGame : MonoBehaviour
 {
+    public GameObject CanvasWin;
+    public GameObject RedWin;
+    public GameObject BlueWin;
     public List<graph> graphList;
     public cell[,] masCell;// = new cell[23, 13];
     private bool isStart = false;
@@ -233,6 +236,11 @@ public class endGame : MonoBehaviour
         //проверка выиграла ли эта ячейка
         if (graphList[graphList.Count - 1].leftWall == true && graphList[graphList.Count - 1].rightWall == true)
         {
+            CanvasWin.SetActive(true);
+            if (graphList[graphList.Count - 1].color == 1)
+                RedWin.SetActive(true);
+            else
+                BlueWin.SetActive(true);
             Debug.Log(" Winning cell! ");
         }
     }
